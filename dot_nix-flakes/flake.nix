@@ -23,6 +23,7 @@
             git
             vim
             neofetch
+            cowsay
             bat
             fzf
             bitwarden-cli

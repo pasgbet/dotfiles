@@ -23,6 +23,7 @@
             git
             vim
             neofetch
+            atuin
             cowsay
             bat
             fzf

@@ -23,7 +23,6 @@
             git
             vim
             neofetch
-            atuin
             cowsay
             bat
             fzf
@@ -31,8 +30,13 @@
             # Add more common packages here
           ] ++ (if pkgs.stdenv.isDarwin then [
             # macOS-specific packages
+            hello
           ] else if pkgs.stdenv.isLinux then [
             # Linux-specific packages
+            #vscode
+            #firefox
+            xclip
+            xsel
           ] else []);
         };
       });
